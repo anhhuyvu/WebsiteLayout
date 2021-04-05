@@ -1,0 +1,68 @@
+.Header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Header img{
+    height: 40px;
+}
+.Header i{
+    font-size:30px;
+}
+
+main{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg-image{
+    background-image: url(../page_3/images/background.jpg);
+    width:1310px;
+    background-size: cover; 
+    height: 92%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.form-content{
+    background-color:rgba(240, 248, 255, 0.87);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-content{
+    height: 50px;
+    width: 400px;
+    /* margin-right: 900px; */
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    border-top:2px solid rgb(6, 2, 10);
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+}
+.foot-content{
+    font-size:10px;
+}
+.foot i{
+    margin-right: 15px;
+}
+.left-content video{
+    margin-top: 10px;
+    width: 100%;
+}
+.right-content{
+    width:40%;
+}
